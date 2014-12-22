@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45EF997E1A47DA4A0046F97B /* UIView+AnchorPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EF997B1A47DA4A0046F97B /* UIView+AnchorPoint.m */; };
+		45EF997F1A47DA4A0046F97B /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EF997D1A47DA4A0046F97B /* UIViewAdditions.m */; };
+		45EF99821A47DA5E0046F97B /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EF99811A47DA5E0046F97B /* NextViewController.m */; };
+		45EF99841A47DA670046F97B /* top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45EF99831A47DA670046F97B /* top@2x.png */; };
+		45EF999A1A47DB110046F97B /* FAImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EF99871A47DB110046F97B /* FAImageView.m */; };
+		45EF999B1A47DB110046F97B /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45EF99881A47DB110046F97B /* fontawesome-webfont.ttf */; };
+		45EF999C1A47DB110046F97B /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EF998A1A47DB110046F97B /* NSString+FontAwesome.m */; };
+		45EF999D1A47DB110046F97B /* PPiFlatSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EF998C1A47DB110046F97B /* PPiFlatSegmentedControl.m */; };
+		45EF999E1A47DB110046F97B /* PPiFlatSegmentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EF998E1A47DB110046F97B /* PPiFlatSegmentItem.m */; };
+		45EF999F1A47DB110046F97B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 45EF998F1A47DB110046F97B /* README.md */; };
+		45EF99A01A47DB110046F97B /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45EF99911A47DB110046F97B /* FontAwesome.ttf */; };
+		45EF99A11A47DB110046F97B /* UIAwesomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EF99931A47DB110046F97B /* UIAwesomeButton.m */; };
+		45EF99A21A47DB110046F97B /* UIButton+PPiAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EF99951A47DB110046F97B /* UIButton+PPiAwesome.m */; };
+		45EF99A31A47DB110046F97B /* UIFont+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EF99971A47DB110046F97B /* UIFont+FontAwesome.m */; };
+		45EF99A41A47DB110046F97B /* UIImage+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EF99991A47DB110046F97B /* UIImage+FontAwesome.m */; };
 		632963A9186E5834005CBEA8 /* AMCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 632963A8186E5834005CBEA8 /* AMCollectionViewController.m */; };
 		652B4470182D376600D01F5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652B446F182D376600D01F5C /* Foundation.framework */; };
 		652B4472182D376600D01F5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652B4471182D376600D01F5C /* CoreGraphics.framework */; };
@@ -41,6 +56,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45EF997A1A47DA4A0046F97B /* UIView+AnchorPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AnchorPoint.h"; sourceTree = "<group>"; };
+		45EF997B1A47DA4A0046F97B /* UIView+AnchorPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnchorPoint.m"; sourceTree = "<group>"; };
+		45EF997C1A47DA4A0046F97B /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
+		45EF997D1A47DA4A0046F97B /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
+		45EF99801A47DA5E0046F97B /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		45EF99811A47DA5E0046F97B /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		45EF99831A47DA670046F97B /* top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top@2x.png"; sourceTree = "<group>"; };
+		45EF99861A47DB110046F97B /* FAImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAImageView.h; sourceTree = "<group>"; };
+		45EF99871A47DB110046F97B /* FAImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAImageView.m; sourceTree = "<group>"; };
+		45EF99881A47DB110046F97B /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		45EF99891A47DB110046F97B /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		45EF998A1A47DB110046F97B /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		45EF998B1A47DB110046F97B /* PPiFlatSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPiFlatSegmentedControl.h; sourceTree = "<group>"; };
+		45EF998C1A47DB110046F97B /* PPiFlatSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPiFlatSegmentedControl.m; sourceTree = "<group>"; };
+		45EF998D1A47DB110046F97B /* PPiFlatSegmentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPiFlatSegmentItem.h; sourceTree = "<group>"; };
+		45EF998E1A47DB110046F97B /* PPiFlatSegmentItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPiFlatSegmentItem.m; sourceTree = "<group>"; };
+		45EF998F1A47DB110046F97B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		45EF99911A47DB110046F97B /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		45EF99921A47DB110046F97B /* UIAwesomeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAwesomeButton.h; sourceTree = "<group>"; };
+		45EF99931A47DB110046F97B /* UIAwesomeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAwesomeButton.m; sourceTree = "<group>"; };
+		45EF99941A47DB110046F97B /* UIButton+PPiAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PPiAwesome.h"; sourceTree = "<group>"; };
+		45EF99951A47DB110046F97B /* UIButton+PPiAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PPiAwesome.m"; sourceTree = "<group>"; };
+		45EF99961A47DB110046F97B /* UIFont+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FontAwesome.h"; sourceTree = "<group>"; };
+		45EF99971A47DB110046F97B /* UIFont+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FontAwesome.m"; sourceTree = "<group>"; };
+		45EF99981A47DB110046F97B /* UIImage+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FontAwesome.h"; sourceTree = "<group>"; };
+		45EF99991A47DB110046F97B /* UIImage+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FontAwesome.m"; sourceTree = "<group>"; };
 		632963A7186E5834005CBEA8 /* AMCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMCollectionViewController.h; sourceTree = "<group>"; };
 		632963A8186E5834005CBEA8 /* AMCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMCollectionViewController.m; sourceTree = "<group>"; };
 		652B446C182D376600D01F5C /* ScrollingNavbarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollingNavbarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +139,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45EF99791A47DA4A0046F97B /* KNAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				45EF997A1A47DA4A0046F97B /* UIView+AnchorPoint.h */,
+				45EF997B1A47DA4A0046F97B /* UIView+AnchorPoint.m */,
+				45EF997C1A47DA4A0046F97B /* UIViewAdditions.h */,
+				45EF997D1A47DA4A0046F97B /* UIViewAdditions.m */,
+			);
+			path = KNAdditions;
+			sourceTree = "<group>";
+		};
+		45EF99851A47DB110046F97B /* PPiFlatSegment */ = {
+			isa = PBXGroup;
+			children = (
+				45EF99861A47DB110046F97B /* FAImageView.h */,
+				45EF99871A47DB110046F97B /* FAImageView.m */,
+				45EF99881A47DB110046F97B /* fontawesome-webfont.ttf */,
+				45EF99891A47DB110046F97B /* NSString+FontAwesome.h */,
+				45EF998A1A47DB110046F97B /* NSString+FontAwesome.m */,
+				45EF998B1A47DB110046F97B /* PPiFlatSegmentedControl.h */,
+				45EF998C1A47DB110046F97B /* PPiFlatSegmentedControl.m */,
+				45EF998D1A47DB110046F97B /* PPiFlatSegmentItem.h */,
+				45EF998E1A47DB110046F97B /* PPiFlatSegmentItem.m */,
+				45EF998F1A47DB110046F97B /* README.md */,
+				45EF99901A47DB110046F97B /* Resources */,
+				45EF99921A47DB110046F97B /* UIAwesomeButton.h */,
+				45EF99931A47DB110046F97B /* UIAwesomeButton.m */,
+				45EF99941A47DB110046F97B /* UIButton+PPiAwesome.h */,
+				45EF99951A47DB110046F97B /* UIButton+PPiAwesome.m */,
+				45EF99961A47DB110046F97B /* UIFont+FontAwesome.h */,
+				45EF99971A47DB110046F97B /* UIFont+FontAwesome.m */,
+				45EF99981A47DB110046F97B /* UIImage+FontAwesome.h */,
+				45EF99991A47DB110046F97B /* UIImage+FontAwesome.m */,
+			);
+			path = PPiFlatSegment;
+			sourceTree = "<group>";
+		};
+		45EF99901A47DB110046F97B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				45EF99911A47DB110046F97B /* FontAwesome.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		652B4463182D376600D01F5C = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +217,8 @@
 		652B4475182D376600D01F5C /* ScrollingNavbarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				45EF99851A47DB110046F97B /* PPiFlatSegment */,
+				45EF99791A47DA4A0046F97B /* KNAdditions */,
 				652B44A4182D3A8200D01F5C /* AMScrollingNavbar */,
 				652B447E182D376600D01F5C /* AMAppDelegate.h */,
 				652B447F182D376600D01F5C /* AMAppDelegate.m */,
@@ -147,6 +235,7 @@
 		652B4476182D376600D01F5C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				45EF99831A47DA670046F97B /* top@2x.png */,
 				652B4477182D376600D01F5C /* ScrollingNavbarDemo-Info.plist */,
 				652B4478182D376600D01F5C /* InfoPlist.strings */,
 				652B447B182D376600D01F5C /* main.m */,
@@ -196,6 +285,8 @@
 				65BF9E6E182E5AD40092BF7F /* AMTableViewController.m */,
 				632963A7186E5834005CBEA8 /* AMCollectionViewController.h */,
 				632963A8186E5834005CBEA8 /* AMCollectionViewController.m */,
+				45EF99801A47DA5E0046F97B /* NextViewController.h */,
+				45EF99811A47DA5E0046F97B /* NextViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -277,7 +368,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45EF99841A47DA670046F97B /* top@2x.png in Resources */,
 				652B4488182D376600D01F5C /* Images.xcassets in Resources */,
+				45EF999B1A47DB110046F97B /* fontawesome-webfont.ttf in Resources */,
+				45EF99A01A47DB110046F97B /* FontAwesome.ttf in Resources */,
 				657678BE1A2A025700AE279B /* Launch Screen.xib in Resources */,
 				652B447A182D376600D01F5C /* InfoPlist.strings in Resources */,
 				65D094891A4066600026644E /* MainTabbed.storyboard in Resources */,
@@ -301,12 +395,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				632963A9186E5834005CBEA8 /* AMCollectionViewController.m in Sources */,
+				45EF99A21A47DB110046F97B /* UIButton+PPiAwesome.m in Sources */,
+				45EF999D1A47DB110046F97B /* PPiFlatSegmentedControl.m in Sources */,
 				65BB5A7B18E06AA7007D4E86 /* UIViewController+ScrollingNavbar.m in Sources */,
 				65BF9E6F182E5AD40092BF7F /* AMTableViewController.m in Sources */,
 				652B4480182D376600D01F5C /* AMAppDelegate.m in Sources */,
+				45EF99821A47DA5E0046F97B /* NextViewController.m in Sources */,
+				45EF999F1A47DB110046F97B /* README.md in Sources */,
+				45EF99A41A47DB110046F97B /* UIImage+FontAwesome.m in Sources */,
 				65BF9E6C182E5AC70092BF7F /* AMWebViewController.m in Sources */,
+				45EF99A31A47DB110046F97B /* UIFont+FontAwesome.m in Sources */,
+				45EF999C1A47DB110046F97B /* NSString+FontAwesome.m in Sources */,
+				45EF999E1A47DB110046F97B /* PPiFlatSegmentItem.m in Sources */,
 				65BF9E69182E5AB70092BF7F /* AMScrollViewController.m in Sources */,
+				45EF997F1A47DA4A0046F97B /* UIViewAdditions.m in Sources */,
 				652B4486182D376600D01F5C /* AMViewController.m in Sources */,
+				45EF999A1A47DB110046F97B /* FAImageView.m in Sources */,
+				45EF99A11A47DB110046F97B /* UIAwesomeButton.m in Sources */,
+				45EF997E1A47DA4A0046F97B /* UIView+AnchorPoint.m in Sources */,
 				652B447C182D376600D01F5C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
